@@ -39,8 +39,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 
 # Scripts
 alias chrome='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe'
-alias startdocker='sudo bash ~/bin/startdocker.sh'
-alias wordpress='sudo bash ~/bin/wordpress.sh'
+alias startdocker='sudo bash ~/scripts/startdocker.sh'
+alias wordpress='sudo bash ~/scripts/wordpress.sh'
 
 # Random
 alias fucking='sudo'
