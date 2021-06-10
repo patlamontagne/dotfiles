@@ -1,10 +1,5 @@
 # Alias definitions.
 
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -38,11 +33,17 @@ alias egrep='egrep --color=auto'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Scripts
-alias chrome='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe'
-alias startdocker='sudo bash ~/scripts/startdocker.sh'
+alias chrome='/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe'
+alias startdocker='sudo service docker start'
 alias wordpress='sudo bash ~/scripts/wordpress.sh'
+alias npm='/usr/bin/npm'
 
 # Random
 alias fucking='sudo'
 alias port='sudo netstat -nlp'
 alias ports='port'
+alias gitdiff='. ~/scripts/diff.sh'
+alias refresh-ssl='. ~/scripts/refresh-ssl.sh'
+alias update-lando='. ~/scripts/update-lando.sh'
+alias update-docker='. ~/scripts/update-docker.sh'
+alias shutdown='. ~/scripts/shutdown.sh'
