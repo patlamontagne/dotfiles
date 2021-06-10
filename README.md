@@ -1,1 +1,3 @@
 # dotfiles
+
+For WSL2.
