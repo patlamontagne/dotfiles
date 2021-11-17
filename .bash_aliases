@@ -35,7 +35,6 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # Scripts
 alias chrome='/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe'
 alias startdocker='sudo service docker start'
-alias wordpress='sudo bash ~/scripts/wordpress.sh'
 alias npm='/usr/bin/npm'
 
 # Random
