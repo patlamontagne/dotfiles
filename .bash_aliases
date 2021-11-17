@@ -36,13 +36,13 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias chrome='/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe'
 alias startdocker='sudo service docker start'
 alias npm='/usr/bin/npm'
-
-# Random
-alias fucking='sudo'
-alias port='sudo netstat -nlp'
-alias ports='port'
 alias gitdiff='. ~/scripts/diff.sh'
 alias refresh-ssl='. ~/scripts/refresh-ssl.sh'
 alias update-lando='. ~/scripts/update-lando.sh'
 alias update-docker='. ~/scripts/update-docker.sh'
 alias shutdown='. ~/scripts/shutdown.sh'
+
+# Helpers
+alias fucking='sudo'
+alias port='sudo netstat -nlp'
+alias ports='port'
