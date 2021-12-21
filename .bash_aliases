@@ -1,10 +1,5 @@
 # Alias definitions.
 
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
@@ -32,17 +27,26 @@ alias egrep='egrep --color=auto'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Scripts
+
+
+# Custom aliases.
+
+# Windows apps
 alias chrome='/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe'
-alias startdocker='sudo service docker start'
-alias npm='/usr/bin/npm'
+alias code='/mnt/c/Program\ Files/Microsoft\ VS\ Code/bin/code'
+alias explorer='/mnt/c/Windows/explorer.exe'
+
+# Scripts
 alias gitdiff='. ~/scripts/diff.sh'
 alias refresh-ssl='. ~/scripts/refresh-ssl.sh'
 alias update-lando='. ~/scripts/update-lando.sh'
 alias update-docker='. ~/scripts/update-docker.sh'
 alias shutdown='. ~/scripts/shutdown.sh'
 
-# Helpers
+# Misc
+alias npm='/usr/bin/npm'
+alias startdocker='sudo service docker start'
 alias fucking='sudo'
 alias port='sudo netstat -nlp'
 alias ports='port'
+alias ..="cd .."
