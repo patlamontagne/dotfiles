@@ -42,6 +42,7 @@ alias refresh-ssl='. ~/scripts/refresh-ssl.sh'
 alias update-lando='. ~/scripts/update-lando.sh'
 alias update-docker='. ~/scripts/update-docker.sh'
 alias shutdown='. ~/scripts/shutdown.sh'
+alias cleanup='. ~/scripts/clean-up.sh'
 
 # Misc
 alias npm='/usr/bin/npm'
