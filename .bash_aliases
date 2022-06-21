@@ -45,7 +45,6 @@ alias shutdown='. ~/scripts/shutdown.sh'
 alias cleanup='. ~/scripts/clean-up.sh'
 
 # Misc
-alias npm='/usr/bin/npm'
 alias startdocker='sudo service docker start'
 alias fucking='sudo'
 alias port='sudo netstat -nlp'
